@@ -40,7 +40,3 @@ Your app should include the following routes
 | GET | /dinosaurs/edit/:id | Read | form for editting a specific dinosaur |
 | PUT | /dinosaurs/:id | Update | updates the data for a specific dinosaur (id = 1) |
 | DELETE | /dinosaurs/:id | Delete | deletes the dinosaur with the specified id (1) |
-
----
-
-## Bonus
