@@ -38,7 +38,7 @@ Your app should include the following routes
 | GET | /dinosaurs | Read | lists all dinosaurs |
 | POST | /dinosaurs | Create | post new dinosaur to database |
 | GET | /dinosaurs/edit/:id | Read | form for editting a specific dinosaur |
-| PUT | /dinosaurs/:id | Update | updates the data for a specific dinosaur (id = 1) |
-| DELETE | /dinosaurs/:id | Delete | deletes the dinosaur with the specified id (1) |
+| PUT | /dinosaurs/:id | Update | updates the data for a specific dinosaur |
+| DELETE | /dinosaurs/:id | Delete | deletes a specific dinosaur |
 
 Your routes will include the `sequelize` code that peforms the CRUD operations on your database of dinosaurs. Refer to [these notes](https://gawdiseattle.gitbooks.io/wdi/05-node-express/express-sequelize/04usingmodels.html) and/or the [sequelize docs](http://docs.sequelizejs.com/manual/tutorial/models-usage.html) for help.
